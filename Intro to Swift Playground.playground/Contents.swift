@@ -58,10 +58,8 @@ var replaced = string2.replacingOccurrences(of: "my", with: "My")
 print(replaced)
 
 
-
-
 // -------PART 10 COMMIT & PUSH VIA GITHUB DESKTOP
-//add 
+// DONE! comment is shown on Github
 
 
 /*-------ASSIGNMENT #3: INTRO to TRUE & FALSE------- */
@@ -85,11 +83,20 @@ var secondComparison = firstInt > secondInt
 
 // -------PART 6 REVIEW TODAY'S TOPIC
 // -------PART 7 ON YOUR OWN PART 1: USING "EQUAL TO" OPERATOR <-- START HERE
+//1. Create two new variables and assign those variables to two different strings.
+var compareString1 = "1"
+var compareString2 = "2"
 
+//2. Create a third variable that is set to (or assigned to) the statement that evaluates your two variables equal to each other.
+//(Hint: You will need to use the “equal to” operator. Google: “equal to operator”).
+var equalTo = compareString1 == compareString2
 
-
-
+//3. Print the third variable.
+print(equalTo)
 
 
 
 // -------PART 8 ON YOUR OWN PART 2: CLONE REPO FROM GITHUB.COM USING GITHUB DESKTOP <--- START HERE
+// Repeat Assignment #1 and label that repository “GithubDesktopTest”. Please name your playground file, “Test”.
+//DONE!
+
