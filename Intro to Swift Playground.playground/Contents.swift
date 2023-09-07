@@ -54,7 +54,7 @@ print(stringConcatenation)
 
 //5. How can you change something with your strings to have it print like this, “Hello My Name”?
 //A change the content inside the quote or use .replacingOccurrences?
-var replaced = string2.replacingOccurrences(of: "my", with: "My")
+var replaced = stringConcatenation.replacingOccurrences(of: "my", with: "My")
 print(replaced)
 
 
@@ -85,7 +85,7 @@ var secondComparison = firstInt > secondInt
 // -------PART 7 ON YOUR OWN PART 1: USING "EQUAL TO" OPERATOR <-- START HERE
 //1. Create two new variables and assign those variables to two different strings.
 var compareString1 = "1"
-var compareString2 = "2"
+var compareString2 = "1"
 
 //2. Create a third variable that is set to (or assigned to) the statement that evaluates your two variables equal to each other.
 //(Hint: You will need to use the “equal to” operator. Google: “equal to operator”).
