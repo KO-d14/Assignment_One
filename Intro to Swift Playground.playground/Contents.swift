@@ -38,14 +38,30 @@ print(myThirdVariable)
 
 // -------PART 8 REVIEW TODAY'S TOPIC
 // -------PART 9 ON YOUR OWN!!!! <-- START HERE
- 
+//1. Declare three new variables and assign each of them to a different string.
+var string1 = "Hello world, "
+var string2 = "my name is "
+var string3 = "Aina."
 
+//2. Create a fourth variable and assign it to the string concatenation that combines all three strings
+var stringConcatenation = string1 + string2 + string3
+
+//3. Use the print function to print the fourth variable
+print(stringConcatenation)
+
+//4. You’ll notice that in your String Concatenation your strings will not have spaces between them, think of a way to add spaces between each of your strings. For example: Your strings may appear like this: “HelloMyName”
+//A: added space at the the end of string1 & 2
+
+//5. How can you change something with your strings to have it print like this, “Hello My Name”?
+//A change the content inside the quote or use .replacingOccurrences?
+var replaced = string2.replacingOccurrences(of: "my", with: "My")
+print(replaced)
 
 
 
 
 // -------PART 10 COMMIT & PUSH VIA GITHUB DESKTOP
-
+//add 
 
 
 /*-------ASSIGNMENT #3: INTRO to TRUE & FALSE------- */
@@ -62,7 +78,7 @@ var firstInt: Int
 firstInt = 5
 var secondInt = 8
 
-// -------PART 5 TEST IF COMPARISON RESULTS ARE ACCURATE 
+// -------PART 5 TEST IF COMPARISON RESULTS ARE ACCURATE
 //We are going to create a statenent that compares the 2 vars and assign that statement to a 3rd var
 var comparison = firstInt < secondInt
 var secondComparison = firstInt > secondInt
